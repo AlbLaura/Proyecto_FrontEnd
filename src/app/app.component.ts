@@ -6,5 +6,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'portfolioFront';
+  title = 'Mi Primer Portfolio en Angular';
+
+  argProg = '*logo* - Argentina Programa 3.0 - #YoProgramo';
 }
