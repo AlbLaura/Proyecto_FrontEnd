@@ -1,0 +1,41 @@
+.redes {
+    margin-right: 3%;
+}
+.footer {
+    margin: 2%;
+}
+#logo-ap {
+    margin-top: .5%;
+    max-height: 60px;
+}
+#logo-ap img {
+    height: 100%;
+}
+.fondoUsuario{
+    min-height: 550px;
+}
+#banner {
+    min-width: 1024px;
+    margin: auto;
+
+    height: 480px;
+    width: 100%;
+    position: absolute;
+    z-index: 1;
+}
+#banner img{
+    height: 100%;
+    width: 100%;
+}
+#usuario-icon {
+    position: absolute;
+    z-index: 2;
+    max-height: 200px;
+    max-width: 200px;
+    margin-top: 18%;
+    margin-left: 6.5%;
+}
+#usuario-icon img {
+    height: 100%;
+    width: 100%;
+}
