@@ -1,21 +1,4 @@
 #banner {
     height: 480px;
     width: 100%;
-    position: absolute;
-    z-index: 1;
-}
-#usuario-icon {
-    position: absolute;
-    z-index: 2;
-    max-height: 200px;
-    max-width: 200px;
-    margin-top: 18%;
-    margin-left: 6.5%;
-}
-#usuario-icon img {
-    height: 100%;
-    width: 100%;
-}
-.fondoUsuario{
-    min-height: 550px;
 }

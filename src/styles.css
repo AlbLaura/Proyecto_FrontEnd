@@ -1,13 +1,11 @@
-* {
-    margin: 0px;
-    padding: 0px;
+body{
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     text-align: left;
-}
-.bg {
     background-color: #F5F5F5;
 }
-
+.col {
+    padding: 0%;
+}
 .card-header {
     background-color: #5c6064;
     color: white;
