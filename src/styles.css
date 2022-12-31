@@ -24,4 +24,11 @@ body{
 .logo {
     width: 50%;
 }
-
+@media only screen and (max-width: 992px) {
+    #acercaDe, #datos, #redesFooter,.card-interior {
+        margin-top: 20px;
+    }
+    .logo {
+        width: 20%;
+    }
+}
