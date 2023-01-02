@@ -1,8 +1,0 @@
-i {
-    margin-right: 3%;
-}
-@media only screen and (max-width: 576px) {
-    i {
-        display: none;
-    }
-}
