@@ -28,7 +28,7 @@ import { NgCircleProgressModule} from 'ng-circle-progress';
     ProyectosComponent,
     SkillsComponent,
     EducacionComponent,
-    ExpLaboralComponent
+    ExpLaboralComponent,
   ],
   imports: [
     BrowserModule,
