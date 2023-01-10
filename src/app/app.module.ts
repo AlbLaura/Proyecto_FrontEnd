@@ -1,7 +1,12 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { FormsModule} from '@angular/forms';
+import { AppRoutingModule } from './app-routing.module';
 import { HttpClientModule } from '@angular/common/http';
+import { NgCircleProgressModule} from 'ng-circle-progress';
+
+import { HomeComponent } from './components/home/home.component';
+import { LoginComponent } from './components/login/login.component';
 
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './components/header/header.component';
@@ -15,7 +20,6 @@ import { SkillsComponent } from './components/skills/skills.component';
 import { EducacionComponent } from './components/educacion/educacion.component';
 import { ExpLaboralComponent } from './components/exp-laboral/exp-laboral.component';
 
-import { NgCircleProgressModule} from 'ng-circle-progress';
 
 @NgModule({
   declarations: [
@@ -30,10 +34,14 @@ import { NgCircleProgressModule} from 'ng-circle-progress';
     SkillsComponent,
     EducacionComponent,
     ExpLaboralComponent,
+    HomeComponent,
+    LoginComponent,
   ],
   imports: [
     BrowserModule,
     FormsModule,
+    AppRoutingModule,
+    HttpClientModule, 
     NgCircleProgressModule.forRoot({
       outerStrokeColor: "#C090E0",
       innerStrokeColor: "#7F5F94",
@@ -46,8 +54,7 @@ import { NgCircleProgressModule} from 'ng-circle-progress';
       imageWidth: 50,
       radius: 50,
       responsive: true
-    }),
-    HttpClientModule
+    })    
   ],
   providers: [],
   bootstrap: [AppComponent]
